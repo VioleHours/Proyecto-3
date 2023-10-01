@@ -15,5 +15,5 @@ export async function GET( request : NextRequest) {
         await supabase.auth.exchangeCodeForSession(code);
     }
 
-    return NextResponse.redirect(requestURL.origin); //redirecciona a la pagina que estaba antes de loguearse
+    return NextResponse.redirect(requestURL.origin); //redirecciona a la pagina que estaba antes de loguearse a ver.
 }
