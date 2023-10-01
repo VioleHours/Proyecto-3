@@ -46,3 +46,5 @@ export function AuthButton() {
     </header>
   );
 }
+
+//esto es solo para averiguar si soy yo o si es mi gemela malvada.
